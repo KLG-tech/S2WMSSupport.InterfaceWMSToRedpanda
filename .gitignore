@@ -1,0 +1,36 @@
+# Ignore build output
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.vs/
+.vscode/
+
+# Logs & crash reports
+*.log
+logs/
+*.dmp
+
+# Environment files
+.env
+
+# .NET related
+project.lock.json
+project.assets.json
+
+# Ignore secrets
+secrets.json
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+.nuget/
+
+# Ignore Redpanda Kafka settings if needed
+redpanda-data/
+*.rdkafka-log
