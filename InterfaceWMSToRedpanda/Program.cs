@@ -19,7 +19,7 @@ args = new[] { "" };
 ClassVar.OpenDBConnExp();
 ClassVar.OpenDBConnRtl();
 
-args = new[] { "Code=1" };
+//args = new[] { "Code=1" };
 
 //List Code job 
 //  1 = Job Interface Master Shipto (Code=1)
